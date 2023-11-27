@@ -3,11 +3,11 @@
 Your code goes below.
 
 */
-x = 3
-y = 10
-z = 5
-name = "Christy"
-greeting = "HEY"
+let x = 3
+let y = 10
+let z = 5
+let name = "Christy"
+let greeting = "HEY"
 
 function multiply(num){
   x = x * num
@@ -22,12 +22,12 @@ function opposite(num){
 z = -num
 }
 
-function makeFullName(str){
-  name = name + " " + str
+function makeFullName(lastName){
+  name = name + " " + lastName
 }
 
 function yellAt(str){
- greeting = greeting + "," + " " + str + "!"
+ greeting = greeting + ", " + str + "!"
 }
 
 
